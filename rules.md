@@ -44,15 +44,31 @@ The player who most recently visited Catan takes the first player token.
 Otherwise, select the starting player randomly.
 
 ### 2. Initial placement
-Starting wtih the start player, each player: 
-1. Places one settlement on any [legal site](#legal-site) on the board
-2. Place a road 
+Standard Catan placement. 
+
+1. Starting with the first player, and continuing in clockwise order, each player places one settlement and one road according to the placement process.
+2. Starting with last player, and continuing in reverse order, each player places one settlement and one road according to the placement proess.
+**Note:** the second settlement does not need to be connected to the players first settlement/road.
+
+Placement process:
+1. Place one settlement on any [legal site](#legal-site) on the board
+2. Place a road on any of the three edges adjacent to the settlement
+
+### 3. Collect starting resources
+Each player takes one of each resource into their hand.
 
 ## Turn structure
-##
+### Set up
+### Knight phase
+### Production phase
+### Trading phase
+### Building phase
+### Clean up
+
 
 ## Glossary
 ### Legal site
+Any vertice where the three neighboring vertices are unoccupied.
 
 
 
