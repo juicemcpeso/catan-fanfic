@@ -39,7 +39,23 @@ The following components from the base game are repurposed and will be described
 1. Place one card of each resource type (brick, grain, lumber, ore, wool) face up near the production deck.
 
 ## Initial placement
+### 1. Select first player
 The player who most recently visited Catan takes the first player token.
+Otherwise, select the starting player randomly.
+
+### 2. Initial placement
+Starting wtih the start player, each player: 
+1. Places one settlement on any [legal site](#legal-site) on the board
+2. Place a road 
 
 ## Turn structure
+##
+
+## Glossary
+### Legal site
+
+
+
+
+
 
