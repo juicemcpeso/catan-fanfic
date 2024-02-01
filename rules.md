@@ -7,6 +7,7 @@ The following components from the base game are repurposed and will be described
 |Original name|New name|
 |---|---|
 |Robber|First player marker|
+|Victory and progress development cards|Development scoring cards|
 
 ## Setup
 ### Prepare the production deck
