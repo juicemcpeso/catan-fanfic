@@ -36,7 +36,6 @@ The following components from the base game are repurposed and will be described
 1. Place the 14 knight cards face up near the game board.
 2. Shuffle the remaining 11 development cards (6 progress cards, 5 victory point cards) and place face down near game board.
 3. Draw top 2 development cards to form devlopment scoring card market.
-4. Place one of the dice next to each of the development scoring cards set to a value of 6
 
 ### Prepare the robber area
 1. Place one card of each resource type (brick, grain, lumber, ore, wool) face up near the production deck.
