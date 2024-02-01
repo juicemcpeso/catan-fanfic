@@ -4,7 +4,7 @@ In addition to the components included in the base game of Catan, you will need:
 - 2 decks of standard playing cards
 
 ## Setup
-### 1. Prepare the production deck
+### Prepare the production deck
 1. Add cards of the specified value (suit does not matter) from the indicated decks to create the 36 card production deck.
 
 |Card value|Quantity from deck 1|Quantity from deck 2|Total|
@@ -23,4 +23,10 @@ In addition to the components included in the base game of Catan, you will need:
 
 2. Shuffle the production deck
 
-### 2. Prepare the game board
+### Prepare the game board
+1. Set up the game board according to the "Set-up, variable - fully random setup" in the Catan manual.
+
+### Prepare the development cards
+1. Separate the 14 knight cards from the remaining 11 development cards.
+2. Place the pile of 14 knight cards face up near the game board.
+3. Shuffle the remaining development cards and place them in a stack face down near the game board.
