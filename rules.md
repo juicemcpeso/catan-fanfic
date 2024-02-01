@@ -73,7 +73,7 @@ Each player takes one of each resource into their hand.
   - Flip the resource card or leave it on its current side
   - Turn the resource card to its side (tap) to indicate that it has had a knight applied to it this round
 3. If you have played at least three and more knight cards than all your opponents, take the largest army bonus.
-4. Keep your knights face up in front of you for the rest of the game.
+4. Keep your knight cards face up in front of you for the rest of the game.
 
 ### Production phase
 1. Starting with the first player, each player must either:
@@ -123,10 +123,12 @@ If you have a contiguous road of at least 5 segments and more than any other opp
 
 #### Settlements
 Cost: 1 brick + 1 grain + 1 lumber + 1 wool
+
 Build according to standard Catan rules.
 
 #### Cities
 Cost: 2 grain + 3 ore
+
 Upgrade a settlement to a city according to standard Catan rules.
 
 #### Knights
