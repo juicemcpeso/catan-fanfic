@@ -34,6 +34,8 @@ The following components from the base game are repurposed and will be described
 ### Prepare the development cards
 1. Place the 14 knight cards face up near the game board.
 2. Shuffle the remaining 11 development cards (6 progress cards, 5 victory point cards) and place face down near game board.
+3. Draw top 2 development cards to form devlopment scoring card market.
+4. Place one of the dice next to each of the development scoring cards set to a value of 6
 
 ### Prepare the robber area
 1. Place one card of each resource type (brick, grain, lumber, ore, wool) face up near the production deck.
@@ -59,18 +61,19 @@ Each player takes one of each resource into their hand.
 
 ## Turn structure
 ### Set up
-1. Draw production cards equal to the number of players.
+1. Deal production cards face up in the production area equal to the number of players.
 
 ### Knight phase
 1. Starting with the first player, each player may play one knight card.
 
 #### Playing a knight card
 1. Play a knight card from your hand face up in front of you.
-2. If you have played at least three and more knight cards than all your opponents, take the largest army bonus.
-3. Select one of the resources in the robber area that has not had a knight applied to it this turn.
+2. Select one of the resources in the robber area that has not had a knight applied to it this turn.
   - Gain one of the corresponding resources to your hand
   - Flip the resource card or leave it on its current side
   - Turn the resource card to its side (tap) to indicate that it has had a knight applied to it this round
+3. If you have played at least three and more knight cards than all your opponents, take the largest army bonus.
+4. Keep your knights face up in front of you for the rest of the game.
 
 ### Production phase
 1. Starting with the first player, each player must either:
@@ -103,21 +106,113 @@ NOTES:
 - You receive the bonus even if the resource is unavailible for production (face down)
 
 ### Trading phase
-### Building phase
-### Clean up
-1. Return any tapped robber cards to their initial orientation.
-2. Clear remaining production cards.
-3. If all 6 robber cards are in the discard pile, shuffle the discard cards with the production card deck.
+All players may trade any of their resource cards (not knight or development cards) with each other.
 
+### Building phase
+Starting with the first player and continuing in clockwise order, all players are given the opportunity to build or upgrade structures.
+You may purchase as many of these items as you can afford in whatever order.
+
+#### Roads
+Cost: 1 brick + 1 lumber + toll
+
+Place one of your roads along one of the edges of a hex. 
+The road must be adjacent to one of your exisiting settlements/cities or roads.
+If a road already exists on the segment, you must pay one additional resource of your choosing to each player with a road on that segement as toll.
+
+If you have a contiguous road of at least 5 segments and more than any other opponent, take the longest road bonus.
+
+#### Settlements
+Cost: 1 brick + 1 grain + 1 lumber + 1 wool
+Build according to standard Catan rules.
+
+#### Cities
+Cost: 2 grain + 3 ore
+Upgrade a settlement to a city according to standard Catan rules.
+
+#### Knights
+Cost: 1 grain + 1 ore + 1 wool
+
+Take one of the knights and add it to your hand. 
+
+#### Development scoring cards
+Purchase a development scoring card by paying the following cost.
+These cards may be kept secret.
+
+|Dice value|Cost|
+|---|---|
+|6 or none|1 of each type + 1 additional|
+|5|5 unique resources|
+|4|4 unique resources|
+|3|3 unique resources|
+|2|2 unique resources|
+|1|1 resource|
+
+Replace the slot in the market with the top card of the deck.
+Do not place a die on the new card.
+
+### Clean up
+1. Check [game end](#game-end)
+2. Return any tapped robber cards to their initial orientation.
+3. Clear remaining production cards.
+4. If all 6 robber cards are in the discard pile, shuffle the discard cards with the production card deck.
+5. Apply hand limit
+6. Update development scoring market
+  - if there is not currently dice on a card, add one with value 6
+  - otherwise, decrease value on dice by 1
+
+## Game end
+The game ends at the end of a round if:
+- The development scoring pile is empty
+- A player has built all 4 cities (or some other building based game end)
+
+## Scoring
+All players score:
+- 1 point per settlement
+- 2 points per city
+- 1 per knight played
+
+The current holders of the largest army/longest road score:
+- 2 points for largest army
+- 2 points for longest road
+
+The development scoring cards score:
+|Card name|Score|
+|---|---|
+|Road building|1 point for every 2 roads, rounded down|
+|Monopoly|2 points for each city|
+|Year O Plenty|1 point for each knight|
+|Chapel|+1 for each building adjacent to grain|
+|Great hall|+1 for each building adjacent to brick|
+|Library|+1 for each building adjacent to lumber|
+|Market|+1 for each building adjacent to wool|
+|University|+1 for each building adjacent to ore|
+
+The player with the highest score wins.
+
+## Important differences from standard Catan
+- the development cards do not provide their specified value
+- the resources provided at setup are one of each, not dependent on what cities you touch
 
 ## Glossary
 ### Legal site
 Any vertice where the three neighboring vertices are unoccupied.
 
 ## Areas to balance
+- Cost of each item
 - The production bonuses are likely unbalanced.
 - Make sure the knight/robber workflow works
+- Figure out how the trading powers come into play
+- Scoring needs to be balanced
+- Game end conditions
+- Apply hand limit at different time
+- Could move the cost reduction so it always happens on the next turn (immediately place a 6 die when you flip a card)
+- decide how to count the scoring cards when it borders multiple (is a city that is adjacent to 3 ore tiles worth 1 or 3?)
 
-
+## Ideas
+- other scoring types
+  - number of buildings
+  - number of cities
+  - types of resources
+  - +1 per knight
 
 
