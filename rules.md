@@ -64,15 +64,44 @@ Each player takes one of each resource into their hand.
 ### Knight phase
 1. Starting with the first player, each player may play one knight card.
 
-Playing a knight card:
+#### Playing a knight card
 1. Play a knight card from your hand face up in front of you.
 2. If you have played at least three and more knight cards than all your opponents, take the largest army bonus.
 3. Select one of the resources in the robber area that has not had a knight applied to it this turn.
   - Gain one of the corresponding resources to your hand
   - Flip the resource card or leave it on its current side
-  - Turn the resource card to its side (tap) to indicate that it has had a knight applied to it this round.
+  - Turn the resource card to its side (tap) to indicate that it has had a knight applied to it this round
 
 ### Production phase
+1. Starting with the first player, each player must either:
+  - Take one of the face up production cards
+  - Take the top card from the deck
+
+#### If the production card is a 7:
+1. Select one of the resources in the robber area that has not had a knight applied to it this turn.
+  - Gain one of the corresponding resources to your hand
+  - Flip the resource card or leave it on its current side
+
+#### If the production card is not a 7:
+1. All players with buildings adjacent to a tile of the selected number gain resources of that tile type if that resource type is currently available (face up) in the robber area.
+- gain 1 resource of that type per adjacent settlement
+- gain 2 resources of that type per adjacent city
+2. The player who selected the production card receives a bonus as per the following table:
+
+|Card value|Bonus|
+|---|---|
+|2 or 12|+2 resources of any type|
+|3 or 11|+1 resource of tile type & +1 resource of any type|
+|4 or 10|+1 resource any type |
+|5 or 9|+1 resource of tile type|
+|6 or 8|no bonus|
+
+NOTES:
+- If you have buildings adjacent to mutliple tile types with the selected number, you may select any of them tiles for the tile type bonus.
+- You only receive the bonus one time, regardless of how many adjacent tiles, cities, or settlements you have
+- You must have a building adjacent to a tile of the selected number in order to receive the bonus
+- You receive the bonus even if the resource is unavailible for production (face down)
+
 ### Trading phase
 ### Building phase
 ### Clean up
@@ -85,7 +114,9 @@ Playing a knight card:
 ### Legal site
 Any vertice where the three neighboring vertices are unoccupied.
 
-
+## Areas to balance
+- The production bonuses are likely unbalanced.
+- Make sure the knight/robber workflow works
 
 
 
