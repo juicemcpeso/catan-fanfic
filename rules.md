@@ -47,7 +47,7 @@ Otherwise, select the starting player randomly.
 Standard Catan placement. 
 
 1. Starting with the first player, and continuing in clockwise order, each player places one settlement and one road according to the placement process.
-2. Starting with last player, and continuing in reverse order, each player places one settlement and one road according to the placement proess.
+2. Starting with last player, and continuing in reverse order, each player places one settlement and one road according to the placement process.
 **Note:** the second settlement does not need to be connected to the players first settlement/road.
 
 Placement process:
@@ -59,11 +59,26 @@ Each player takes one of each resource into their hand.
 
 ## Turn structure
 ### Set up
+1. Draw production cards equal to the number of players.
+
 ### Knight phase
+1. Starting with the first player, each player may play one knight card.
+
+Playing a knight card:
+1. Play a knight card from your hand face up in front of you.
+2. If you have played at least three and more knight cards than all your opponents, take the largest army bonus.
+3. Select one of the resources in the robber area that has not had a knight applied to it this turn.
+  - Gain one of the corresponding resources to your hand
+  - Flip the resource card or leave it on its current side
+  - Turn the resource card to its side (tap) to indicate that it has had a knight applied to it this round.
+
 ### Production phase
 ### Trading phase
 ### Building phase
 ### Clean up
+1. Return any tapped robber cards to their initial orientation.
+2. Clear remaining production cards.
+3. If all 6 robber cards are in the discard pile, shuffle the discard cards with the production card deck.
 
 
 ## Glossary
