@@ -152,13 +152,14 @@ Do not place a die on the new card.
 
 ### Clean up
 1. Check [game end](#game-end)
-2. Return any tapped robber cards to their initial orientation.
-3. Clear remaining production cards.
-4. If all 6 robber cards are in the discard pile, shuffle the discard cards with the production card deck.
-5. Apply hand limit
-6. Update development scoring market
+2. All players discard resources down to hand limit of 7.
+3. Return any tapped robber cards to their initial orientation (but do not flip).
+4. Discard all selected and remaining production cards.
+  - If all 6 robber cards are in the discard pile, shuffle the discard cards with the production card deck.
+5. Update development scoring market
   - if there is not currently dice on a card, add one with value 6
   - otherwise, decrease value on dice by 1
+  - if value is 1, do nothing
 
 ## Game end
 The game ends at the end of a round if:
