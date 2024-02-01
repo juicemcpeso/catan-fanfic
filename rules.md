@@ -31,13 +31,9 @@ The following components from the base game are repurposed and will be described
 ### Prepare the game board
 1. Set up the game board according to the "Set-up, variable - fully random setup" in the Catan manual.
 
-### Prepare the knight deck
+### Prepare the development cards
 1. Place the 14 knight cards face up near the game board.
-
-### Prepare the development scoring cards
-1. Add 1 card of each resource type (brick, grain, lumber, ore, wool) to the 11 remaining development cards (6 progress cards, 5 victory point cards).
-2. Shuffle these cards together
-3. Place near the game board
+2. Shuffle the remaining 11 development cards (6 progress cards, 5 victory point cards) and place face down near game board.
 
 ### Prepare the robber area
 1. Place one card of each resource type (brick, grain, lumber, ore, wool) face up near the production deck.
